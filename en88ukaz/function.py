@@ -12,6 +12,6 @@ def imshow(X , resize = None):
    repo.
     """
     im = Image.fromarray(X) # convert input array to PIL image type 
-    im.resize(resize,  resample=0) # use build in resize function for img type 
+    im = im.resize(resize,  resample=0) # use build in resize function for img type 
 
     return im 
